@@ -14,7 +14,7 @@ namespace Bai_10
             while (true)
             {
                 Console.Write("Nhập số nguyên n >= 0, n = ");
-                if ((int.TryParse(Console.ReadLine(), out n) && n > 0)) break;
+                if (int.TryParse(Console.ReadLine(), out n) && n > 0) break;
                 Console.Write("Không hợp lệ!");
             }
             Console.Write("Dãy Fibonacci với {0} phần tử là: ", n);
@@ -26,7 +26,6 @@ namespace Bai_10
                 Console.Write(fibo + " ");
             }
             Console.ReadKey();
-
         }
     }
 }
