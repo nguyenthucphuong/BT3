@@ -14,7 +14,7 @@ namespace Bai_6
             while (true)
             {
                 Console.Write("Nhập số nguyên n > 0, n = ");
-                if ((int.TryParse(Console.ReadLine(), out n) && n > 0)) break;
+                 if (int.TryParse(Console.ReadLine(), out n) && n > 0) break;
                 Console.Write("Không hợp lệ!");
             }
             double sum = 0;
@@ -24,7 +24,6 @@ namespace Bai_6
             }
             Console.WriteLine("Tong la: {0}", sum);
             Console.ReadKey();
-
         }
     }
 }
