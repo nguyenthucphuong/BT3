@@ -14,7 +14,7 @@ namespace Bai_4
             while (true)
             {
                 Console.Write("Nhập số nguyên n > 0, n = ");
-                if ((int.TryParse(Console.ReadLine(), out n) && n > 0)) break;
+                if (int.TryParse(Console.ReadLine(), out n) && n > 0) break;
                 Console.Write("Không hợp lệ!");
             }
             string s = " không";
@@ -28,7 +28,6 @@ namespace Bai_4
             }
             Console.WriteLine("{0}{1} là số chính phương", n, s);
             Console.ReadKey();
-
         }
     }
 }
