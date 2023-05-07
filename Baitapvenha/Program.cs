@@ -21,7 +21,6 @@ namespace Baitapvenha
             if (n % 3 == 0) s = "";
             Console.WriteLine("{0}{1} chia hết cho 3", n, s);
             Console.ReadKey();
-
         }
     }
 }
