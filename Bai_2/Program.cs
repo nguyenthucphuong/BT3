@@ -14,7 +14,7 @@ namespace Bai_2
             while (true)
             {
                 Console.Write("Nhập số nguyên n > 0, n = ");
-                if ((int.TryParse(Console.ReadLine(), out n) && n > 0)) break;
+                if (int.TryParse(Console.ReadLine(), out n) && n > 0) break;
                 Console.Write("Không hợp lệ!");
             }
             for (int i = 1; i <= n; i++)
@@ -25,7 +25,6 @@ namespace Bai_2
                 }
             }
             Console.ReadKey();
-
         }
     }
 }
