@@ -59,12 +59,12 @@ internal class Program
         }
         Console.WriteLine("Tam giác đều thuận:");
         for (int i = n; i <= 2 * n - 1; i++) {
-            Console.Write(s.PadRight(2 * n - i - 1, '.'));
+            Console.Write(s.PadRight(2 * n - i - 1, ' '));
             Console.WriteLine(s.PadRight(2 * (i - n) + 1, '*'));
         }
         Console.WriteLine("Tam giác đều ngược:");
         for (int i = 2 * n - 1; i >= n; i--) {
-            Console.Write(s.PadRight(2 * n - i - 1, '.'));
+            Console.Write(s.PadRight(2 * n - i - 1, ' '));
             Console.WriteLine(s.PadRight(2 * (i - n) + 1, '*'));
         }
         Console.ReadKey();
