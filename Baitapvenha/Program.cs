@@ -14,7 +14,7 @@ namespace Baitapvenha
             while (true)
             {
                 Console.Write("Nhập số nguyên n, n = ");
-                if ((int.TryParse(Console.ReadLine(), out n))) break;
+                if (int.TryParse(Console.ReadLine(), out n)) break;
                 Console.Write("Không hợp lệ!");
             }
             string s = " không";
