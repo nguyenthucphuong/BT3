@@ -14,7 +14,7 @@ namespace Bai_8
             while (true)
             {
                 Console.Write("Nhập số nguyên n > 0, n = ");
-                if ((int.TryParse(Console.ReadLine(), out n) && n > 0)) break;
+                if (int.TryParse(Console.ReadLine(), out n) && n > 0) break;
                 Console.Write("Không hợp lệ!");
             }
             if (n >= 2) Console.Write("Các số nguyên tố từ 1 đến {0} là: 2 ", n);
@@ -33,7 +33,6 @@ namespace Bai_8
                 if (isPrime) Console.Write(i + " ");
             }
             Console.ReadKey();
-
         }
     }
 }
