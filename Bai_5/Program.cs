@@ -43,7 +43,6 @@ namespace Bai_5
             }
             Console.WriteLine("Tháng {0} có {1} ngày", month, day);
             Console.ReadKey();
-
         }
     }
 }
