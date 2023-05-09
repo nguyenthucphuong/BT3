@@ -11,7 +11,7 @@ namespace Bai_5
         static void Main(string[] args)
         {
             int month;
-            int day = 0;
+            int day = 28;
             bool isLeapYear = DateTime.IsLeapYear(DateTime.Now.Year);
             while (true)
             {
@@ -32,7 +32,6 @@ namespace Bai_5
                     break;
                 case 2:
                     if (isLeapYear) day = 28;
-                    else day = 29;
                     break;
                 case 4:
                 case 6:
