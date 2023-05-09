@@ -31,7 +31,7 @@ namespace Bai_5
                     day = 31;
                     break;
                 case 2:
-                    if (isLeapYear) day = 28;
+                    if (isLeapYear) day = 29;
                     break;
                 case 4:
                 case 6:
